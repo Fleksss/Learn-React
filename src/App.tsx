@@ -1,10 +1,19 @@
-import Message from "./components/Message"
 import ListGoup from "./components/ListGroup"
 
+import './App.css'
+
 function App() {
-  return <div>
-    <Message />
-    <ListGoup />
+
+  const cities = [
+    "New York",
+    "San Francisco",
+    "Tokyo",
+    "London",
+    "Paris"
+  ]
+
+  return <div className="main">
+    <ListGoup cities={cities} heading="Cities" />
   </div>
 }
 
