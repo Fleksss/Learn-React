@@ -1,0 +1,7 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  background: url(../../../assets/Mountain.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
