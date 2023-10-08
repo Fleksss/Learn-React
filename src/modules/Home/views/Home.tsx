@@ -17,12 +17,11 @@ function Home() {
 
   const [isPopup, setIsPopup] = useState(false)
 
-
   return (
     <>
       <div className="wrap relative">
         <Popup isPopupOpen={isPopup} />
-        <div onClick={() => { setIsPopup(true); console.log(isPopup) }} className="absolute top-10 left-10 w-20 h-20">
+        <div onClick={() => { setIsPopup(true) }} className="absolute top-10 left-10 w-20 h-20">
           <button className="btn w-full h-full"><i className="fa-solid fa-arrow-left fa-fade text-white text-3xl"></i></button>
         </div>
         <List />
