@@ -1,7 +1,7 @@
 import Toast from "../../../components/Toast/views/Toast";
 
 import "../styles/Home.css"
-import List from "../components/List";
+import List from "../../List/views/List";
 import Popup from "../../../components/Popup/views/Popup";
 import { useState } from "react";
 
