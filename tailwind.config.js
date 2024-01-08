@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'poppins': ['Poppins']
+      },
+      backgroundImage: {
+        'japanese': "url('./src/assets/japanese.jpeg')"
       }
     },
   },
