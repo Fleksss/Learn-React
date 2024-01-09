@@ -1,7 +1,7 @@
 // import Main from "./modules/Home/views/Home"
-// import Registration from "./modules/auth/Registration/views/Registration"
+import Registration from "./modules/auth/Registration/views/Registration"
 
-import List from "./modules/List/views/List"
+// import List from "./modules/List/views/List"
 
 // import Login from "./modules/auth/Login/views/Login"
 
@@ -9,9 +9,9 @@ function App() {
 
   return (
     // <Main />
-    // <Registration />
+    <Registration />
     // <Login />
-    <List />
+    // <List />
   )
 }
 
