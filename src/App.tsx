@@ -1,16 +1,21 @@
 // import Main from "./modules/Home/views/Home"
-import Registration from "./modules/auth/Registration/views/Registration"
+// import Registration from "./modules/auth/Registration/views/Registration"
 
 // import List from "./modules/List/views/List"
 
-// import Login from "./modules/auth/Login/views/Login"
+import Login from "./modules/auth/Login/views/Login"
 
-function App() {
+
+import { GoogleOAuthProvider } from '@react-oauth/google';
+
+const App = () => {
 
   return (
+    <GoogleOAuthProvider clientId="big-synthesizer-411817">
+      <Login />
+    </GoogleOAuthProvider>
     // <Main />
-    <Registration />
-    // <Login />
+    // <Registration />
     // <List />
   )
 }
